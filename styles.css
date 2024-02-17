@@ -1,0 +1,195 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+}
+
+
+header {
+    background: #ffffff;
+    color: #000000;
+}
+.logo{
+    height: 30px;
+    padding: 30px;
+    align-items: start;
+}
+nav ul {
+    list-style: none;
+    margin-left: 60%;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+    
+}
+
+nav ul li a {
+    color: #000000;
+    text-decoration: none;
+}
+
+
+.hero {
+    background-image: url(./boy-t2.png);
+    height: 500px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: right;
+    color: #fff;
+    padding: 100px 0;
+    text-align: center;
+}
+
+.hero h1 {
+    font-size: 36px;
+    margin-bottom: 20px;
+    color: #222222;
+    text-align: left;
+    padding: 15px;
+}
+
+.hero p {
+    font-size: 18px;
+    margin-bottom: 30px;
+    padding: 15px;
+    color: #333;
+    text-align: left;
+    
+}
+
+.hero button {
+    background: none;
+    color: #363636;
+    padding: 10px 20px;
+    margin-left: 15px;
+    border: 1px solid gray;
+    border-radius: 5px;
+    float: left;
+    cursor: pointer;
+}
+
+.hero button:hover {
+    background-color: #4444449c;
+    color: #f5f5f5;
+}
+
+
+.features {
+    padding: 50px 0;
+    text-align: center;
+}
+
+.feature {
+    background-image: url(./Untitled.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 400px;
+    height: 300px;
+    margin: 0% 35%;
+}
+
+.feature h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+    color: #c7c7c7;
+}
+
+.feature p {
+    color: #c7c7c7;
+    line-height: 1.8em;
+    font-weight:  lighter;
+
+}
+
+
+.testimonials {
+    background-image: url(./38834746.jpeg);
+    background-repeat: no-repeat;
+    background-position: left;
+    background-size: 300px;
+    height: 300px;
+    padding: 50px 0;
+    text-align: center;
+    background-color: rgb(50, 150, 180);
+}
+
+.testimonial {
+    margin-bottom: 30px;
+    
+}
+
+.testimonial p {
+    font-style: italic;
+    font-size: 18px;
+}
+
+.testimonial cite {
+    font-weight: bold;
+}
+
+.cta {
+    background-image: url('cta-bg.jpg');
+    background-size: cover;
+    background-position: center;
+    color: #fff;
+    padding: 100px 0;
+    text-align: center;
+}
+
+.cta h2 {
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+.cta p {
+    font-size: 18px;
+    margin-bottom: 30px;
+}
+
+.cta button {
+    background-color: #ff5722;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.cta button:hover {
+    background-color: #e64a19;
+}
+
+
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+footer ul {
+    list-style: none;
+    margin-bottom: 20px;
+}
+
+footer ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+footer ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+
+@media (max-width: 768px) {
+   
+}
